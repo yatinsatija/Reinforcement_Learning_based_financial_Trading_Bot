@@ -24,10 +24,13 @@ The main aim of the project is to design deep learning approaches to implement t
    - The dataset of past 10-15 years were downloaded using the Yahoo Finance API.
    - Indian scenario was considered in choosing the companies for stock related data. Reliance, HDFC bank and Wipro were considered in the implementation.
 
+   - ![alt text](https://github.com/yatinsatija/Reinforcement_Learning_based_financial_Trading_Bot/blob/main/ResultsImages/dataset.png)
+
 2. Pre-Processing of the dataset
 
    - An additional feature was created in the dataset thereby leveraging the technical indicator.
    - Moving Average Convergence Divergence (MACD) is a trend-following momentum indicator that shows the relationship between two moving averages of a security’s price.
+   - ![alt text](https://github.com/yatinsatija/Reinforcement_Learning_based_financial_Trading_Bot/blob/main/ResultsImages/processedDataset.png)
 
 3. Creation of Custom Trading Environment:
    - There should be a trading environment in which the Agent performs actions as per the action space and learns based on the reinforcement received.
@@ -35,6 +38,8 @@ The main aim of the project is to design deep learning approaches to implement t
 
    - Actor-critic learning is a reinforcement-learning technique in which you simultaneously learn a policy function and a value function.
    - The policy function tells you how to make decisions, and the value function helps improve the training process for the value function.
+
+   - ![alt text](https://github.com/yatinsatija/Reinforcement_Learning_based_financial_Trading_Bot/blob/main/ResultsImages/RL.png)
 
    - `Proximal Policy Optimization (PPO)`
 
@@ -64,3 +69,32 @@ The main aim of the project is to design deep learning approaches to implement t
 
 6. Backtesting of strategy
    - Backtesting is accomplished by reconstructing, with historical data, trades that would have occurred in the past using rules defined by a given strategy. The result offers statistics to gauge the effectiveness of the strategy.
+
+## Results and Discussions
+
+    Performance of the trading agent on 3 different test environments are as follows:
+
+1. RELIANCE<br/>
+
+   - ![alt text](https://github.com/yatinsatija/Reinforcement_Learning_based_financial_Trading_Bot/blob/main/ResultsImages/reliance.png)
+
+2. WIPRO<br/>
+
+   - ![alt text](https://github.com/yatinsatija/Reinforcement_Learning_based_financial_Trading_Bot/blob/main/ResultsImages/Wipro.png)
+
+3. HDFC<br/>
+
+   - ![alt text](https://github.com/yatinsatija/Reinforcement_Learning_based_financial_Trading_Bot/blob/main/ResultsImages/HDFC.png)
+
+   ### BACKTESTING RESULTS
+
+4. RELIANCE<br/>
+
+   - ![alt text](https://github.com/yatinsatija/Reinforcement_Learning_based_financial_Trading_Bot/blob/main/ResultsImages/relianceB.png)
+
+5. WIPRO<br/>
+
+   - ![alt text](https://github.com/yatinsatija/Reinforcement_Learning_based_financial_Trading_Bot/blob/main/ResultsImages/wiproB.png)
+
+6. HDFC<br/>
+   - ![alt text](https://github.com/yatinsatija/Reinforcement_Learning_based_financial_Trading_Bot/blob/main/ResultsImages/HDFCb.png)
